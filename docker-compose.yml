@@ -3,7 +3,7 @@ services:
   app:
     build: .
     entrypoint: .docker/entrypoint.sh
-    container_name: primaapi-app
+    container_name: prismaapi-app
     ports:
       - '3000:3000'
     volumes:
