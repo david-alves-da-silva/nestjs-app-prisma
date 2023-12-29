@@ -8,5 +8,5 @@ export class CreatePostDto {
   @IsOptional()
   content?: string;
   @IsEmail()
-  authorEmail: number;
+  authorId: number;
 }
